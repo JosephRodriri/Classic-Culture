@@ -1,0 +1,104 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+.contenedor video{
+    object-fit: cover;
+}
+
+.titulo{
+    position: absolute;
+    inset: 0;
+    place-items: center;
+    background-color: #3E4452;
+    opacity: 0.9;
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: sans-serif;
+    mix-blend-mode:hard-light;
+    user-select: none;
+    text-align: center;
+
+    
+}
+.contenedor-video {
+    width: 640px; 
+    height: 360px; 
+    overflow: hidden; 
+  }
+  
+  video {
+    width: 100%; 
+    height: 100%; 
+  }
+
+  .contenedor {
+    position: relative; /* Permite posicionar elementos de forma absoluta */
+    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    height: 100vh; /* Ocupa todo el alto de la pantalla */
+  }
+  
+  .contenedor video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantiene la relación de aspecto del video */
+  }
+  
+  .foto-y-contactos {
+    position: absolute;
+    top: 60%; /* Posiciona verticalmente en el centro */
+    left: 20%; /* Posiciona horizontalmente en el centro */
+    transform: translate(-50%, -50%); /* Ajusta la posición para que no se desplace por el borde */
+    background-color: rgba(255, 255, 255, 0.5); /* Semitransparencia de fondo */
+    padding: 20px;
+    border-radius: 10px; /* Borde redondeado para el contenedor */
+    line-height: 25px;
+  }
+  .foto-y-contactos2 {
+    position: absolute;
+    top: 60%; /* Posiciona verticalmente en el centro */
+    left: 50%; /* Posiciona horizontalmente en el centro */
+    transform: translate(-50%, -50%); /* Ajusta la posición para que no se desplace por el borde */
+    background-color: rgba(255, 255, 255, 0.5); /* Semitransparencia de fondo */
+    padding: 20px;
+    border-radius: 10px; /* Borde redondeado para el contenedor */
+    line-height: 25px;
+  }
+
+  .foto-y-contactos3 {
+    position: absolute;
+    top: 60%; /* Posiciona verticalmente en el centro */
+    left: 80%; /* Posiciona horizontalmente en el centro */
+    transform: translate(-50%, -50%); /* Ajusta la posición para que no se desplace por el borde */
+    background-color: rgba(255, 255, 255, 0.5); /* Semitransparencia de fondo */
+    padding: 20px;
+    border-radius: 10px; /* Borde redondeado para el contenedor */
+    line-height: 25px;
+  }
+
+  
+  
+  .foto-perfil img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: 200px;
+    
+  }
+  
+  
+  .foto-y-contactos .lista-contactos {
+    margin-top: 30px;
+  }
+  
+  
